@@ -14,19 +14,27 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/marginResult"
+        android:text="@string/clear"
+        android:textSize="@dimen/textSizeResult"/>
+
     <TextView
         android:id="@+id/textResult"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/heightResult"
         android:background="@drawable/back"
-        android:layout_margin="14dp"
+        android:layout_margin="@dimen/marginResult"
         android:gravity="right"
-        android:padding="@dimen/padding_result"
-        android:text="@string/_0"
+        android:padding="@dimen/paddingResult"
+        android:text="@string/_00"
         android:textColor="@color/black"
-        android:textSize="@dimen/fontSizeResult"
+        android:textSize="@dimen/textSizeResult"
         android:textStyle="bold" />
-
 
     <include layout="@layout/activity_keyboard" />
 
