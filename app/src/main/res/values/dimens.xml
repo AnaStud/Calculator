@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSize">42sp</dimen>
+    <dimen name="fontSizeResult">72sp</dimen>
+    <dimen name="margin_button">2dp</dimen>
+    <dimen name="padding_result">10dp</dimen>
+</resources>
