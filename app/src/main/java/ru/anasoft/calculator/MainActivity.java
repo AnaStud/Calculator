@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         buttonClear.setOnClickListener(v -> {
             myCalculator.clearParam();
             myCalculator.clearResult();
-            setTextResult(String.valueOf(myCalculator.getParam()));
+            setTextResult(myCalculator.getParam());
         });
     }
 
