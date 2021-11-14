@@ -2,30 +2,43 @@ package ru.anasoft.calculator;
 
 public class Action {
 
+    private StringBuilder inputParam;
     private double param;
     private String lastOperation;
     private double result;
+    private boolean usePoint;
 
     public Action() {
-        clearAll();
+        this.inputParam = new StringBuilder("0");
+        clearParam();
+        clearResult();
     }
 
-    public void clearAll() {
+    public void clearParam() {
         this.param = 0;
+        this.inputParam.replace(0, this.inputParam.length(), "0");
+        this.usePoint = false;
+    }
+
+    public void clearResult() {
         this.lastOperation = "=";
         this.result = 0;
     }
 
-    public void setParam(int num) {
-        this.param = this.param * 10 + num;
+    public void addNumToParam(String num) {
+        if (this.inputParam.toString().equals("0")) {
+            this.inputParam.delete(0, 1);
+        }
+        this.inputParam.append(num);
+        this.param = Double.parseDouble(this.inputParam.toString());
     }
 
-    public double getParam() {
-        return param;
+    public String getParam() {
+        return this.inputParam.toString();
     }
 
-    public double getResult() {
-        return result;
+    public String getResult() {
+        return String.valueOf(this.result);
     }
 
     public void doOperation(String operation) {
@@ -51,8 +64,18 @@ public class Action {
         }
 
         this.lastOperation = operation;
-        this.param = 0;
+        clearParam();
 
     }
 
- }
+    public void addPoint() {
+        if (!this.usePoint) {
+            this.usePoint = true;
+
+            if (this.inputParam.length() == 0) {
+                this.inputParam.append("0");
+            }
+            this.inputParam.append(".");
+        }
+    }
+}
