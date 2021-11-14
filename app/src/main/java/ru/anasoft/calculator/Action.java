@@ -71,10 +71,6 @@ public class Action {
     public void addPoint() {
         if (!this.usePoint) {
             this.usePoint = true;
-
-            if (this.inputParam.length() == 0) {
-                this.inputParam.append("0");
-            }
             this.inputParam.append(".");
         }
     }
