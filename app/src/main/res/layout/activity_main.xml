@@ -20,8 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:layout_marginLeft="@dimen/marginResult"
-        android:text="@string/clear"
-        android:textSize="@dimen/textSizeResult"/>
+        android:text="@string/clear"/>
 
     <TextView
         android:id="@+id/textResult"
@@ -31,10 +30,7 @@
         android:layout_margin="@dimen/marginResult"
         android:gravity="right"
         android:padding="@dimen/paddingResult"
-        android:text="@string/_0"
-        android:textColor="@color/black"
-        android:textSize="@dimen/textSizeResult"
-        android:textStyle="bold" />
+        android:textColor="@color/black"/>
 
     <include layout="@layout/activity_keyboard" />
 
