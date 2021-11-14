@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
 
         initButtonClear(R.id.buttonClear);
 
-        initButton(R.id.button1, "1");
-        initButton(R.id.button2, "2");
-        initButton(R.id.button3, "3");
-        initButton(R.id.button4, "4");
-        initButton(R.id.button5, "5");
-        initButton(R.id.button6, "6");
-        initButton(R.id.button7, "7");
-        initButton(R.id.button8, "8");
-        initButton(R.id.button9, "9");
-        initButton(R.id.button0, "0");
+        initButton(R.id.button1, getString(R.string._1));
+        initButton(R.id.button2, getString(R.string._2));
+        initButton(R.id.button3, getString(R.string._3));
+        initButton(R.id.button4, getString(R.string._4));
+        initButton(R.id.button5, getString(R.string._5));
+        initButton(R.id.button6, getString(R.string._6));
+        initButton(R.id.button7, getString(R.string._7));
+        initButton(R.id.button8, getString(R.string._8));
+        initButton(R.id.button9, getString(R.string._9));
+        initButton(R.id.button0, getString(R.string._0));
 
         initButtonOperation(R.id.buttonPlus);
         initButtonOperation(R.id.buttonMinus);

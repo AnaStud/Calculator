@@ -1,157 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TableButtonStyle">
 
     <TableRow
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        style="@style/TableButtonStyle">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_1"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_2"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_3"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonPlus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_plus"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
     </TableRow>
 
     <TableRow
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        style="@style/TableButtonStyle">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_4"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_5"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_6"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonMinus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_minus"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
     </TableRow>
 
     <TableRow
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        style="@style/TableButtonStyle">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_7"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_8"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_9"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonMultiply"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_multiply"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
     </TableRow>
 
     <TableRow
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        style="@style/TableButtonStyle">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonPoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_point"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_0"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonEqually"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_equally"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonShare"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginButton"
             android:text="@string/_share"
-            android:textSize="@dimen/textSizeButton"/>
+            style="@style/ButtonStyle"/>
 
     </TableRow>
 
