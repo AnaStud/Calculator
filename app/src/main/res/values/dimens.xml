@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="fontSize">42sp</dimen>
-    <dimen name="fontSizeResult">72sp</dimen>
-    <dimen name="margin_button">2dp</dimen>
-    <dimen name="padding_result">10dp</dimen>
+    <dimen name="textSizeButton">42sp</dimen>
+    <dimen name="marginButton">2dp</dimen>
+    <dimen name="heightResult">50dp</dimen>
+    <dimen name="textSizeResult">24sp</dimen>
+    <dimen name="marginResult">14dp</dimen>
+    <dimen name="paddingResult">10dp</dimen>
 </resources>

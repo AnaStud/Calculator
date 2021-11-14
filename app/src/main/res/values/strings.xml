@@ -16,4 +16,5 @@
     <string name="_multiply">*</string>
     <string name="_share">/</string>
     <string name="_equally">=</string>
+    <string name="clear">Clear</string>
 </resources>
