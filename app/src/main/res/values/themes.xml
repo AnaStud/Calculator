@@ -15,10 +15,23 @@
     </style>
 
     <style name="MyStyle" parent="Theme.Calculator">
-        <item name="colorPrimary">@color/blue</item>
-        <item name="colorPrimaryVariant">@color/dark_blue</item>
         <item name="android:textSize">@dimen/textSizeResult</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyStyle1" parent="MyStyle">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+    </style>
+
+    <style name="MyStyle2" parent="MyStyle">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/dark_orange</item>
+    </style>
+
+    <style name="MyStyle3" parent="MyStyle">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/dark_purple</item>
     </style>
 
     <style name="TableButtonStyle" parent="MyStyle">
@@ -30,5 +43,15 @@
         <item name="android:layout_margin">@dimen/marginButton</item>
         <item name="android:textSize">@dimen/textSizeButton</item>
      </style>
+
+    <style name="SettingsStyle" parent="MyStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RadioSettingsStyle" parent="SettingsStyle">
+<!--        <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:layout_marginBottom">@dimen/marginBottomSettings</item>
+    </style>
 
 </resources>

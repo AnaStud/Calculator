@@ -6,4 +6,5 @@
     <dimen name="textSizeResult">24sp</dimen>
     <dimen name="marginResult">14dp</dimen>
     <dimen name="paddingResult">10dp</dimen>
+    <dimen name="marginBottomSettings">20dp</dimen>
 </resources>
