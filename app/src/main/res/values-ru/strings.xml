@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="clear">Сброс</string>
+    <string name="textSettings">Тема:</string>
+    <string name="textSetting1">Безмятежная</string>
+    <string name="textSetting2">Романтическая</string>
+    <string name="textSetting3">Возвышенная</string>
+    <string name="theme">Тема</string>
+
+</resources>

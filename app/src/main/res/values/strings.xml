@@ -17,4 +17,9 @@
     <string name="_share">/</string>
     <string name="_equally">=</string>
     <string name="clear">Clear</string>
+    <string name="textSettings">Theme:</string>
+    <string name="textSetting1">Serene</string>
+    <string name="textSetting2">Romantic</string>
+    <string name="textSetting3">Sublime</string>
+    <string name="theme">Theme</string>
 </resources>
